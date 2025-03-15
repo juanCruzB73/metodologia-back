@@ -1,0 +1,8 @@
+enables intereacting with the file system
+
+first import: const fs = require('fs');
+
+good practices
+*usar preferentemente async
+implementar manejo de errores
+limpiar recursos redundantes

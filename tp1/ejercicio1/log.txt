@@ -1,0 +1,3 @@
+[2025-03-14 11:10:55] - Inicio del programa
+[2025-03-14 11:10:55] - Ejecutando programa
+[2025-03-14 11:11:00] - Fin programa
