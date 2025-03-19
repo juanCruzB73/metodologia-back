@@ -1,0 +1,14 @@
+Ejercicios teóricos:
+1.	Explica qué es npm y su función en un proyecto de Node.js.
+2.	Describe la estructura básica del archivo package.json y menciona tres campos importantes.
+3.	¿Cuál es la diferencia entre dependencias normales y dependencias de desarrollo en npm?
+4.	¿Qué comando utilizamos para actualizar un paquete instalado en nuestro proyecto?
+5.	¿Para que se utiliza el comando npm link? 
+6.	Ver el módulo de inicio de un proyecto
+
+1.npm es un manejador de paquetes en node su función es facilitar el manejo de dependencias en proyectos.
+2.la estructura basica de node esta compuesta de objetos en formato json, cada objeto tiene datos como la informacion(nombre,version,punto de entrada,etx), las dependecias, los scripts de ejecución, entre otros.
+3.las dependencias normales son las que se instalan para el funcionamineto del proyecto, suelen ser librerias, frameworks, etc. 
+Mientras que las dependencias de desarrollo son las que se isntalas solamente para el desarrollo de la aplicación no para su etapa de producción
+4.para actualizar un paquete se necesita usar el comando npm update 'nombre-paquete'.
+5.El comando npm link se usa en Node.js para crear enlaces simbólicos entre paquetes locales y el directorio global de módulos de Node, se usa para probar el paquete sin tener que publicarlo en npm.

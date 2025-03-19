@@ -1,0 +1,14 @@
+{
+    "name": "MyProject",
+    "version": "1.0.0",
+    "description": "This is a sample JSON file to read in Node.js",
+    "author": "juanb",
+    "dependencies": {
+      "express": "^4.18.2"
+    },
+    "settings": {
+      "port": 3000,
+      "debug": true
+    }
+  }
+  
