@@ -1,0 +1,3 @@
+nombre: juan 
+edad: 21 
+correo: juan.gmial.com
