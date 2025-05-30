@@ -1,10 +1,11 @@
 import express from 'express';
+import dotenv from 'dotenv';
+import router from './routes/usuarioRoutes.js';
+dotenv.config();
 const app = express();
-const port = 3000;
-app.get("/user", (req, res) => {
+app.use(express.json());
+app.get("/", (req, res) => {
     res.send('Typescript + node');
 });
-app.listen(port, () => {
-    console.log("test0")
-    console.log(`app runnig on port ${port}`);
-});
+app.use("/usuario", router);
+export default app;
